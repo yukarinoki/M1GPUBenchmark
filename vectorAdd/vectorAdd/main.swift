@@ -24,8 +24,12 @@ func setupMetal() {
 
 func setupPipeline() {
 	if let computeFunction = library.makeFunction(name: computeFunctionName) {
-			computePipelineState = try device.makeComputePipelineState(function: computeFunction)
-
+        do {
+            computePipelineState = try device.makeComputePipelineState(function: computeFunction)
+        } catch  {
+            print("error")
+        }
+			
 	}
 	else {
 		fatalError("Kernel functions are not found")

@@ -97,6 +97,7 @@
 				TargetAttributes = {
 					1FFC52341EA99A9000E5411A = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 382NQT8FH5;
 						LastSwiftMigration = 1340;
 						ProvisioningStyle = Automatic;
 					};
@@ -250,7 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 382NQT8FH5;
 				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -261,7 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 382NQT8FH5;
 				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
